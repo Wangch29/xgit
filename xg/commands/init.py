@@ -2,7 +2,7 @@ from pathlib import Path
 import sys
 
 from typer import Argument, echo
-from typing_extensions import Annotated, Optional
+from typing_extensions import Annotated
 
 
 def init(directory: Annotated[str, Argument(help="Directory to initialize.")] = "."):
